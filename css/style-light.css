@@ -1,0 +1,15 @@
+body {
+  color: #141516;
+  background-color: #ffffff; }
+
+/* Hide the compact top-bar nav links on mobile — the fullscreen menu handles navigation there */
+@media screen and (max-width: 991px) {
+  .nav-menu-top {
+    display: none !important;
+  }
+}
+
+.nav-fullscreen-lg {
+  position: relative !important;
+  z-index: 999 !important;
+}
