@@ -1,0 +1,10 @@
+@"
+{
+  "`$schema": "node_modules/wrangler/config-schema.json",
+  "name": "beadroom",
+  "compatibility_date": "2025-09-27",
+  "assets": {
+    "directory": "."
+  }
+}
+"@ | Out-File -FilePath wrangler.jsonc -Encoding utf8
